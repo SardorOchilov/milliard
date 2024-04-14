@@ -12,6 +12,6 @@ export interface AuthenticationStore {
 }
 
 export interface UserStore {
-  user: Types.IEntity.User;
+  user: Types.IEntity.Employee;
   setUser: (user: Types.IEntity.Employee) => void;
 }
