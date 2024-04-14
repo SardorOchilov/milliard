@@ -16,5 +16,6 @@
   "item description": "Дастур",
   "sales employee name": "Менеджер",
   "phone": "Номер",
-  "create excel" : "Создать файл Excel"
+  "create excel" : "Создать файл Excel",
+  "all" : "Все"
 }
