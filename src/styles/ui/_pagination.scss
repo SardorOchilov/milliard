@@ -1,0 +1,21 @@
+.ant-pagination .ant-pagination-item-active a {
+  color: white;
+  background-color: $blue;
+}
+
+.ant-pagination .ant-pagination-disabled .ant-pagination-item-link {
+  border: 1px solid $border-light-gray;
+  border-radius: 6px;
+}
+
+.ant-pagination .ant-pagination-item {
+  border: 1px solid $border-light-gray
+}
+
+.ant-pagination .ant-pagination-next .ant-pagination-item-link {
+  border: 1px solid $border-light-gray;
+}
+
+.ant-pagination .ant-pagination-item-active:hover a {
+  color: white;
+}

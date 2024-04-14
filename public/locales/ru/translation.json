@@ -1,0 +1,20 @@
+{
+  "cancel": "Отмена",
+  "add": "Добавить",
+  "login-success": "Вы успешно вошли в систему",
+  "login-fail": "Не удалось войти в систему",
+  "login": "Войти",
+  "authorization": "Авторизация",
+  "clients": "Клиенты",
+  "suppliers": "Поставщики",
+  "sales": "Продажи",
+  "sales-order": "Заказ на продажу",
+  "customer": "Заказчик",
+  "sales amount": "Сумма Продажи",
+  "paid amount": "Сумма оплаты",
+  "debt": "Долг",
+  "item description": "Дастур",
+  "sales employee name": "Менеджер",
+  "phone": "Номер",
+  "create excel" : "Создать файл Excel"
+}

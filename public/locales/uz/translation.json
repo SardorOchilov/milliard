@@ -1,0 +1,20 @@
+{
+  "cancel": "Bekor qilish",
+  "add": "Qoshish",
+  "login-success": "Tizimga muvaffaqiyatli kirdingiz",
+  "login-fail": "Tizimga kirishda xatolik",
+  "login": "Kirish",
+  "authorization": "Tizimga kirish",
+  "clients": "Mijozlar",
+  "suppliers": "Taminotchilar",
+  "sales": "Sotuvlar",
+  "sales-order": "Sotish buyurtmasi",
+  "customer": "Mijoz",
+  "sales amount": "Sotuv summasi",
+  "paid amount": "To'lov summasi",
+  "debt": "Qarz",
+  "item description": "Dastur",
+  "sales employee name": "Menedjer",
+  "phone": "Telefon raqam",
+  "create excel" : "Excel fayl yaratish"
+}

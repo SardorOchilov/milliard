@@ -1,0 +1,7 @@
+.ant-btn-primary {
+  background-color: $secondary;
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  background-color: #2a5f78;
+}

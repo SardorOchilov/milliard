@@ -1,0 +1,13 @@
+.sales-order-page {
+  .filter-calendar {
+    @apply w-fit flex items-center border-[1px] border-[#d9d9d9] rounded-[6px] relative
+  }
+
+  .filter-calendar {
+    .ant-select-selector {
+      padding-left: 28px;
+      border: none
+    }
+  }
+
+}

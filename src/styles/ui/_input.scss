@@ -1,0 +1,28 @@
+#app, .ant-modal-root {
+  .ant-input {
+    border-radius: 6px;
+    height: 40px;
+    background: #FAFBFC;
+    &.has-error {
+      @apply text-danger border-danger;
+      box-shadow: 0 0 14px rgb(255 0 0 /50%) inset;
+    }
+  }
+
+  .ant-input-affix-wrapper {
+    border-radius: 6px;
+  }
+  .ant-input:focus, .ant-input-focused {
+    box-shadow: none;
+    &.has-error {
+      @apply text-danger border-danger;
+      box-shadow: 0 0 14px rgb(255 0 0 /50%) inset;
+    }
+  }
+
+  .helper-message {
+    min-height: 22px;
+    font-size: 12px;
+    padding-top: 3px;
+  }
+}

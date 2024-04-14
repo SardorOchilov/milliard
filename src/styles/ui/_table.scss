@@ -1,0 +1,59 @@
+
+.ant-table-wrapper .ant-table-container table > thead > tr:first-child > *:first-child {
+  border-radius: 0;
+}
+
+.ant-table-wrapper .ant-table-container table > thead > tr:first-child > *:last-child {
+  border-radius: 0;
+  background-color: white;
+  border-bottom: none;
+}
+
+.ant-table-wrapper .ant-table .link{
+  color: #0588c0;
+  cursor: pointer;
+}
+
+.ant-table-wrapper .ant-table-thead > tr {
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  background-color: white;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  white-space: nowrap;
+  background-color: white;
+  border-bottom: none;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  content: none;
+}
+
+.ant-table-wrapper table {
+  border-spacing: 0 12px;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr {
+  border-radius: 6px;
+
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td:first-child {
+  border-left: 1px solid #DFE2E9;
+  border-radius: 6px 0 0 6px;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border-top: 1px solid #DFE2E9;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.2;
+  border-bottom: 1px solid #DFE2E9;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td:last-child {
+  border-right: 1px solid #DFE2E9;
+  border-radius: 0 6px 6px 0;
+}
