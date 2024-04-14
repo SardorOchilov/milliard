@@ -44,7 +44,6 @@ const SalesOrder = () => {
       setManagerOptions((prevState) => {
         return [...prevState, ...option2Array];
       });
-      setItemCode(option1Array.map((item) => item.value));
       setManagerName(option2Array.map((item) => item.value));
     },
     refetchOnWindowFocus: false,
@@ -147,13 +146,21 @@ const SalesOrder = () => {
 
   const handleChangeItemDescription = (value: any) => {
     if (value.includes("all")) {
-      setItemCode(itemCodeOptions.map((item) => item.value));
+      setItemCode(
+        itemCodeOptions
+          .filter((item) => item.value !== "all")
+          .map((item) => item.value),
+      );
     } else setItemCode(value);
   };
 
   const handleChangeManager = (value: any) => {
     if (value.includes("all")) {
-      setManagerName(managerOptions.map((item) => item.value));
+      setManagerName(
+        managerOptions
+          .filter((item) => item.value !== "all")
+          .map((item) => item.value),
+      );
     } else setManagerName(value);
   };
 
