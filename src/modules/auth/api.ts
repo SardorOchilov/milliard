@@ -6,9 +6,9 @@ export const Login = (
 ): Promise<Types.Login.Response> =>
   $http.get(`auth/employee`, { params: data }).then((res) => res.data);
 
-export const GetMe = (token: string): Promise<Types.IEntity.User> =>
+export const GetMe = (token: string): Promise<Types.Login.Response> =>
   $http
-    .get(`auth/get-me`, {
+    .get(`auth/me`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },

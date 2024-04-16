@@ -22,16 +22,16 @@ const LoginForm = () => {
   >(null);
 
   const isLogin = async () => {
-    // if (token) {
-    //   try {
-    //     const data = await Api.GetMe(token);
-    //     user.setUser(data);
-    //     auth.login();
-    //     navigate("/app/sales/customer-order");
-    //   } catch (err) {
-    //     /* empty */
-    //   }
-    // }
+    if (token) {
+      try {
+        const data = await Api.GetMe(token);
+        user.setUser(data.employee);
+        auth.login();
+        navigate("/app/sales/list");
+      } catch (err) {
+        /* empty */
+      }
+    }
   };
 
   const login = useMutation("login", Login, {
