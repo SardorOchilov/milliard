@@ -1,6 +1,6 @@
 {
   "name": "reactjs-vite-tailwindcss-boilerplate",
-  "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
+  "description": "",
   "version": "0.1.0",
   "private": true,
   "scripts": {
